@@ -1,0 +1,8 @@
+{
+  "appService.zipIgnorePattern": [
+    "node_modules{,/**}",
+    ".vscode{,/**}"
+  ],
+  "appService.defaultWebAppToDeploy": "/subscriptions/8d70006d-efa7-443d-912f-caf4d53fef5d/resourceGroups/reclaimed-app/providers/Microsoft.Web/sites/reclaimedsite",
+  "appService.deploySubpath": ""
+}
