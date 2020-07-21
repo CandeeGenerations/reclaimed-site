@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "outDir": "src",
+    "module": "commonjs",
+    "target": "es6",
+    "lib": ["es5", "es6", "es7", "es2017", "dom"],
+    "sourceMap": true,
+    "allowJs": false,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDirs": ["."],
+    "baseUrl": ".",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "isolatedModules": false,
+    "esModuleInterop": true,
+    "paths": {
+      "@app/*": ["./src/*"],
+      "@test/*": ["./test/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "build", "scripts", "*.test.tsx"]
+}

@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.cgen.json",
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "module": "esnext",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "strictPropertyInitialization": false
+  }
+}
